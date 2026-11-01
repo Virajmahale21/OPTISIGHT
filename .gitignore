@@ -1,0 +1,12 @@
+# Model Checkpoints (>100MB exceed GitHub push limits)
+*.pth
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Vercel & IDE
+.vercel/
+.env
+.vscode/
