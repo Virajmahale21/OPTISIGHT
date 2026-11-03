@@ -3,11 +3,27 @@
 
 # Python cache & logs
 __pycache__/
-*.py[cod]
+*.py[codz]
+*$py.class
 *.log
 tempCodeRunnerFile.*
 
-# Vercel & IDE
-.vercel/
+# C extensions & Packaging
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Environments & Vercel
 .env
+.envrc
+.venv
+env/
+venv/
+.vercel/
+.pytest_cache/
 .vscode/
+
+# Jupyter & Notebooks
+.ipynb_checkpoints
